@@ -1,7 +1,7 @@
 import axios, { type AxiosResponse } from 'axios'
 
 export const apiClient = axios.create({
-  baseURL: 'https://weatherapitypescript.onrender.com',
+  baseURL: 'https://weatherservices.onrender.com',
   headers: {
     'Content-Type': 'application/json',
   },
